@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#ff7a00">
+  <meta
+    name="description"
+    content="Aplicação web responsiva que consome uma API pública para exibir imagens aleatórias de cachorros."
+  >
+
+  <title>Cachorro Aleatório</title>
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <section class="card">
+      <div class="topo">
+        <span class="emoji">🐶</span>
+        <h1>Cachorro Aleatório</h1>
+      </div>
+
+      <p class="subtitulo">
+        Toque no botão para descobrir uma nova imagem.
+      </p>
+
+      <div class="image-box">
+        <img
+          id="dogImage"
+          src=""
+          alt="Imagem aleatória de cachorro"
+        >
+      </div>
+
+      <p id="status" class="status" aria-live="polite">
+        Carregando cachorro...
+      </p>
+
+      <div class="actions">
+        <button id="generateBtn" type="button">
+          Novo cachorro
+        </button>
+
+        <button id="installBtn" type="button" class="secondary hidden">
+          Instalar app
+        </button>
+      </div>
+
+      <p id="iosTip" class="ios-tip hidden">
+        No iPhone, use Compartilhar → Adicionar à Tela de Início.
+      </p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

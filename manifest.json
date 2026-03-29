@@ -1,0 +1,22 @@
+{
+  "name": "Cachorro Aleatório",
+  "short_name": "Cachorro",
+  "description": "Aplicativo web com consumo de API, vibração e suporte a PWA.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffb347",
+  "theme_color": "#ff7a00",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
