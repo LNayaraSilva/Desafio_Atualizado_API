@@ -53,9 +53,42 @@ O projeto foi configurado como PWA com:
 
 ---
 
+## 📂 Estrutura do projeto
+
+
+Desafio_Atualizado_API
+│
+├── index.html
+├── style.css
+├── script.js
+├── manifest.json
+├── sw.js
+└── icons
+    ├── icon-192.png
+    └── icon-512.png
+
+---
+
+## 🌐 Deploy do projeto
+
+A aplicação pode ser acessada através do link:
+
+https://desafio-1-consumo-api-atualizado.netlify.app/
+
+---
+
+## 👩‍💻 Autora
+
+Laís Nayara  
+Estudante de Análise e Desenvolvimento de Sistemas
+
+---
+
 ## 📳 Uso de hardware
 
 Foi utilizado o recurso de **vibração do dispositivo** através da API:
 
 ```javascript
 navigator.vibrate(120);
+
+
